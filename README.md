@@ -9,13 +9,13 @@ Steps:
 5. Use docker-compose to manage the app and database containers
 
 API Endpoints:
-GET /api/name: Get the API name
-GET /books: Retrieve all books
-POST /books: Create a new book
-GET /books/<int:book_id>: Retrieve a specific book by ID
-PUT /books/<int:book_id>: Update a specific book by ID
-DELETE /books/<int:book_id>: Delete a specific book by ID
-POST /api/check-duplicate: Check for duplicate books
+1. GET /api/name: Get the API name
+2. GET /books: Retrieve all books
+3. POST /books: Create a new book
+4. GET /books/<int:book_id>: Retrieve a specific book by ID
+5. PUT /books/<int:book_id>: Update a specific book by ID
+6. DELETE /books/<int:book_id>: Delete a specific book by ID
+7. POST /api/check-duplicate: Check for duplicate books
 
 Running the Application
 Build and run the Docker containers: docker-compose up --build
